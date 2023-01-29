@@ -1,5 +1,3 @@
-#drivter-web
+# drivter-web
 
-Hello world.
-
-Testing SSH user
+Web Interface for the drivt's bills payment platform.
