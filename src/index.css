@@ -8,4 +8,16 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: 0.5s;
+  
+}
+
+body{
+  overflow: hidden;
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) { 
+  body{
+    overflow: visible;
+  }
 }

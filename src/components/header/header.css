@@ -5,6 +5,7 @@
     background-color: #003566;
     color: white;
     border-bottom: 3px solid gray;
+    z-index: 99;
 }
 
 .nav__list{

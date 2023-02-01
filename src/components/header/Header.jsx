@@ -10,15 +10,15 @@ const navLinks  = [
     },
     {
         display: 'Get QB',
-        url: 'getqb',
+        url: '#',
     },
     {
         display: 'FAQs',
-        url: 'faqs',
+        url: '#',
     },
     {
         display: 'About Us',
-        url: 'about',
+        url: '#',
     },
 ]
 

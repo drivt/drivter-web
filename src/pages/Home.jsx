@@ -8,9 +8,9 @@ import Hero from '../components/herosection/Hero'
 const Home = () => {
     return (
         <div>
-            <Header />
+            
             <Hero />
-            <Footer />
+            
         </div>
     )  
 }
