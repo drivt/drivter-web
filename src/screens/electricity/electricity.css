@@ -1,0 +1,18 @@
+.elect{
+    height: 40px;
+    width: 70px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.elect img{
+    height: 100%;
+    width: 100%;
+}
+
+.p-5 h6{
+    margin-left: 110px;
+    font-size: 10px;
+}
