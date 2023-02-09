@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import Vector from '../../assets/vect.jpg';
+import Logo from "../../assets/logo.png"
 import Footer from '../../components/footer/Footer';
 import Icon1 from '../../assets/left-arrow.png';
 import MTN from '../../assets/mtn.png';
@@ -11,6 +12,7 @@ import {  FormGroup, Label, Input, FormText } from 'reactstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './airtime.css'
+import { Link } from 'react-router-dom';
 
 
 const navLinks  = [
@@ -43,9 +45,7 @@ const Airtime = () => {
             <Container>
             <div className="navigation d-flex align-items-center justify-content-between">
                 <div className="logo">
-                    <h2 className="d-flex align-items-center gap-1">
-                        <h3><span>d</span>rivter.</h3>
-                    </h2>
+                        <img src={Logo} alt="" />
                 </div>
 
                 <div className="nav d-flex align-items-center gap-5">
@@ -86,7 +86,7 @@ const Airtime = () => {
 
                     <Col lg='6' md='6' className='airt'>
                     <div className="airtime-body">
-                    <button><div className="airt-icon"><img src={Icon1} alt="" /></div></button>
+                    <Link to='/hello'><button><div className="airt-icon"><img src={Icon1} alt="" /></div></button></Link>
                     <h1 className='airtime-header text-3xl font-bold text-center'>Airtime & Data</h1>
                     <h6 className='text-center'>Sorting out your airtime and data payments just got eaiser and faster.</h6>
                     <h6 className='text-center'>Select your preferred mobile network:</h6>
@@ -107,6 +107,14 @@ const Airtime = () => {
                       <option>Airtel</option>
                       <option>Glo</option>
                       <option>9Mobile</option>
+                    </Input>
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input type="select" name="select" id="exampleSelect" className='mb-4 Ph'>
+                      <option>Select Package: </option>
+                      <option>Airtime</option>
+                      <option>Data</option>
                     </Input>
                   </FormGroup>
 

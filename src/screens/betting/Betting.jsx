@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import { Container, Row, Col } from 'reactstrap';
+import Logo from "../../assets/logo.png"
 import Vector from '../../assets/vect.jpg';
+import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer';
 import Icon1 from '../../assets/left-arrow.png';
 import BET from '../../assets/bet.png';
@@ -49,10 +51,8 @@ return (
     <Container>
     <div className="navigation d-flex align-items-center justify-content-between">
         <div className="logo">
-            <h2 className="d-flex align-items-center gap-1">
-                <h3><span>d</span>rivter.</h3>
-            </h2>
-        </div>
+                        <img src={Logo} alt="" />
+                </div>
 
         <div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
@@ -92,7 +92,7 @@ return (
 
             <Col lg='6' md='6' className='airt'>
             <div className="airtime-body">
-            <button><div className="airt-icon"><img src={Icon1} alt="" /></div></button>
+            <Link to='/hello'><button><div className="airt-icon"><img src={Icon1} alt="" /></div></button></Link>
             <h1 className='airtime-header text-3xl font-bold text-center'>Betting & Gaming</h1>
             <h6 className='text-center'>Paying bills doesn't have to be a hassle. Let's help you pay them swiftly.</h6>
             <h6 className='text-center'>Select your preferred service provider:</h6>

@@ -16,17 +16,17 @@
     column-gap: 1.9rem;
 }
 
-.logo h3{
-    font-size: 25px;
-    padding-top: 15px;
-    letter-spacing: 2px;
-    font-weight: bold;
+
+.logo{
+    height: 90px;
+    width: 100px;
 }
 
-
-.logo h3 span{
-    color: goldenrod;
+.logo img{
+    height: 100%;
+    width: 100%;
 }
+
 
 .login{
     margin-left: 500px;
@@ -114,4 +114,6 @@
     .active_menu {
         display: block;
     }
+
+    
 }

@@ -1,5 +1,7 @@
 import React, { useRef } from 'react'
 import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import Logo from "../../assets/logo.png"
 import Vector from '../../assets/vect.jpg';
 import Icon1 from '../../assets/smartphone.png';
 import Icon2 from '../../assets/flash.png';
@@ -42,9 +44,7 @@ return (
             <Container>
             <div className="navigation d-flex align-items-center justify-content-between">
                 <div className="logo">
-                    <h2 className="d-flex align-items-center gap-1">
-                        <h3><span>d</span>rivter.</h3>
-                    </h2>
+                        <img src={Logo} alt="" />
                 </div>
 
                 <div className="nav d-flex align-items-center gap-5">
@@ -86,35 +86,35 @@ return (
                     <Col lg='6' md='6' className=''>
                         <div className="boxses">
 
-                            <button>
-                                <div className="box">
-                                    <div className="icon">
-                                        <img src={Icon1} alt="" />
-                                    </div>
-                                <div className="box-text">Airtime</div>
+                            <Link to="/airtime"><button>
+                            <div className="box">
+                                <div className="icon">
+                                    <img src={Icon1} alt="" />
                                 </div>
-                            </button>
+                            <div className="box-text">Airtime</div>
+                            </div>
+                        </button></Link>
 
-                            <button>
-                                <div className="box">
-                                    <div className="icon"><img src={Icon2} alt="" /></div>
-                                <div className="box-text">Electricity</div>
-                                </div>
-                            </button>
+                            <Link to="/electricity"><button>
+                            <div className="box">
+                                <div className="icon"><img src={Icon2} alt="" /></div>
+                            <div className="box-text">Electricity</div>
+                            </div>
+                        </button></Link>
 
-                            <button>
-                                <div className="box">
-                                    <div className="icon"><img src={Icon3} alt="" /></div>
-                                <div className="box-text">Cable Tv</div>
-                                </div>
-                            </button>
+                        <Link to="/cabletv"><button>
+                        <div className="box">
+                            <div className="icon"><img src={Icon3} alt="" /></div>
+                        <div className="box-text">Cable Tv</div>
+                        </div>
+                    </button></Link>
 
-                            <button>
-                                <div className="box">
-                                    <div className="icon"><img src={Icon4} alt="" /></div>
-                                <div className="box-text">Betting</div>
-                                </div>
-                            </button>
+                            <Link to="/betting"><button>
+                            <div className="box">
+                                <div className="icon"><img src={Icon4} alt="" /></div>
+                            <div className="box-text">Betting</div>
+                            </div>
+                        </button></Link>
                         </div>
                     </Col>
 
