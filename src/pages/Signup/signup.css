@@ -1,0 +1,86 @@
+.img img{
+    height: 60%;
+    width: 100%;
+}
+
+.sign-body{
+    margin-top: -20px;
+    margin-right: -80px;
+    background-color: #003566;
+    height: 90vh;
+    z-index: 9;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+.sign-main{
+}
+
+.sign-header{
+    color: white;
+    margin-top: 40px;
+    width: 40vw;
+    font-family: sans-serif;
+}
+
+.Ph{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px 5px;
+}
+
+.forgot a span{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0px 0px 0px 0px;
+} 
+
+.btn{
+    
+}
+
+.btn .submit{
+    margin-left: 50px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: #FFC300;
+    outline: none !important;
+    border: none;
+}
+
+.ques{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.sign{
+    text-decoration: none;
+    color: #FFC300;
+}
+
+
+@media only screen and (max-width: 900px) { 
+    .main .img img{
+        display: none;
+    }
+
+
+    .sign-body{
+        height: 800px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .sign-header{
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+section{ 
+    background-color: #ffffff !important;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.hero__content h2{
+    font-weight: 400;
+    font-size: 60px;
+    color: black;
+}
+
+.hero__text {
+    font-size: 30px;
+    color: #555555;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.hero__content{
+    padding-top: 140px;
+}
+
+
+.onboard-btn{
+    border: none;
+    font-weight: 600;
+    outline: none;
+    padding: 10px 52px;
+    font-size: 15px;
+    color: black;
+    background-color: #FFC300;
+    border-radius: 10px;
+}
+
+.hero__image {
+    margin-top: 80px;
+}
+
+
+@media only screen and (max-width: 1100px) { 
+    .hero__content h2{
+        font-weight: 400;
+        font-size: 50px;
+        color: black;
+    }
+
+    .hero__content{
+        padding-top: 100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) { 
+    .hero__content{
+        padding-top: 40px;
+    }
+}

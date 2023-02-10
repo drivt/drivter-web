@@ -1,0 +1,149 @@
+.airtime-body{
+    margin-left: 72px;
+    height: 94vh;
+    width: 100%;
+    background-color: #003566;
+    padding-top: 10px;
+    
+}
+
+.airt{
+    z-index: 9;
+    margin-top: -10px;
+}
+
+
+.airtime-header{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.airt-icon{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.airt-icon img{
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+}
+
+
+.airtimes{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.217);
+    width: 320px;
+    height: 85px;
+    border-radius: 15px;
+    margin: 20px 0px 0px 150px;
+}
+
+
+.airtimes .networks{
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+
+
+.networks img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Ph{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 5px;
+    width: 300px;
+    margin-left: 110px;
+}
+
+
+form .btn .submit{
+    margin-left: 160px;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #FFC300;
+    outline: none !important;
+    border: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .img img {
+        display: none;
+    }
+
+    .airt{
+        z-index: 9;
+        margin-top: -10px;
+        width: 100%;
+    }
+
+    .airtime-body{
+        margin-left: 0px;
+        height: 94vh;
+        width: 100%;
+        background-color: #003566;
+        padding-top: 10px;
+        
+    }
+
+    .airtimes{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.217);
+        width: 320px;
+        height: 85px;
+        border-radius: 15px;
+        margin: 20px 0px 0px 30px;
+    }
+    
+    
+    .airtimes .networks{
+        height: 50px;
+        width: 50px;
+        box-sizing: border-box;
+        margin: 15px;
+    }
+
+    .Ph{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px 5px;
+        width: 300px;
+        margin-left: 0px;
+    }
+    
+    
+    form .btn .submit{
+        margin-left: 0px;
+        height: 40px;
+        width: 285px;
+        border-radius: 10px;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #FFC300;
+        outline: none !important;
+        border: none;
+    }
+}
