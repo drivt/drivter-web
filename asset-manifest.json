@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/drivter-web/static/css/main.4939a263.css",
+    "main.js": "/drivter-web/static/js/main.ff557f7c.js",
+    "static/js/787.91990e39.chunk.js": "/drivter-web/static/js/787.91990e39.chunk.js",
+    "static/media/remixicon.svg?t=1590207869815": "/drivter-web/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/Hand.jpg": "/drivter-web/static/media/Hand.9608edcd5372127ab0c7.jpg",
+    "static/media/remixicon.eot?t=1590207869815": "/drivter-web/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/drivter-web/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/success.jpg": "/drivter-web/static/media/success.72cf1f0953f612f7c77f.jpg",
+    "static/media/vect.jpg": "/drivter-web/static/media/vect.eaa0a9b014cf2077fe1b.jpg",
+    "static/media/remixicon.woff?t=1590207869815": "/drivter-web/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/failed.jpg": "/drivter-web/static/media/failed.7553e09178972a5cfdfd.jpg",
+    "static/media/remixicon.woff2?t=1590207869815": "/drivter-web/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/glo.jpeg": "/drivter-web/static/media/glo.3c24f98b7e16c27566eb.jpeg",
+    "static/media/airtel.png": "/drivter-web/static/media/airtel.d56a7db88e18ba1576f9.png",
+    "static/media/bet.png": "/drivter-web/static/media/bet.de15dd7bab00d38d2da4.png",
+    "static/media/ekedc.jpeg": "/drivter-web/static/media/ekedc.55834b8ab3cab58a60f4.jpeg",
+    "static/media/emobile.jpeg": "/drivter-web/static/media/emobile.cff54068b5102f47e588.jpeg",
+    "static/media/star.jpeg": "/drivter-web/static/media/star.0d0dcbac620728f5951d.jpeg",
+    "static/media/betting.png": "/drivter-web/static/media/betting.e1cec713c59fd1ad140f.png",
+    "static/media/cancel.png": "/drivter-web/static/media/cancel.1c2963ee3467352a1681.png",
+    "static/media/check.png": "/drivter-web/static/media/check.546e4e84e5d555b4ca1e.png",
+    "static/media/logo.png": "/drivter-web/static/media/logo.ef199eb14ab723b36b08.png",
+    "static/media/tv.png": "/drivter-web/static/media/tv.e43c66ef21e3e42c270e.png",
+    "static/media/gotv.webp": "/drivter-web/static/media/gotv.e9b8bc15aecf955a5854.webp",
+    "static/media/show.webp": "/drivter-web/static/media/show.70a99d42193a334254bb.webp",
+    "static/media/slick.svg": "/drivter-web/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/drivter-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/drivter-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/drivter-web/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/drivter-web/index.html",
+    "static/media/wave.svg": "/drivter-web/static/media/wave.3879346de5c34a5e92028eaac5c75bd8.svg",
+    "main.4939a263.css.map": "/drivter-web/static/css/main.4939a263.css.map",
+    "main.ff557f7c.js.map": "/drivter-web/static/js/main.ff557f7c.js.map",
+    "787.91990e39.chunk.js.map": "/drivter-web/static/js/787.91990e39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4939a263.css",
+    "static/js/main.ff557f7c.js"
+  ]
+}
